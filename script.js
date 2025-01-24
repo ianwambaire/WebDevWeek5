@@ -58,5 +58,16 @@ function performingcalculations(){
 function greetUser(name) {
     return `Hello, ${name}`;
 }
+//Part 2: JavaScript Control Structures
+//4.If Statements:
+function checkingage(){
+    let outcome;
+    const age=parseFloat(prompt("Enter your age: ",""));
+    if(age>=18){
+        document.getElementById("prom").innerHTML="You are eligible to vote";
+    }else{
+        document.getElementById("prom").innerHTML="You are not eligible to vote";
+    }
+}
 
 
