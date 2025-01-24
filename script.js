@@ -48,7 +48,6 @@ function performingcalculations(){
         default:
             //is to notify the user incase he inputs an invalid operation
           result="Please enter a valid operation(+,-,*,/)";
-          return;
 
     }
     //displays the result on the webpage
