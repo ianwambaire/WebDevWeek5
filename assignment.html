@@ -16,5 +16,25 @@
     </script>
     <button onclick="checkingage()">Click her to check eligibility to vote</button>
     <p id="prom"></p>
+    <p id="promp"></p>
+    <!---5.Loops-->
+    <h5>Numbers from 1 to 10</h5>
+    <!-- Ordered list to display numbers -->
+    <ol id="mylist"></ol>
+
+    <script>
+        // Select the <ol> element by its ID
+        const list = document.getElementById("mylist");
+
+        // Loop through numbers from 1 to 10
+        for (let i = 1; i < 10; i++) {
+            // Create a new <li> element
+            const listItem = document.createElement("li");
+            // Set the text of the <li> to the current number
+            listItem.textContent = i;
+            // Append the <li> to the <ol>
+            list.appendChild(listItem);
+        }
+    </script>
 </body>
 </html>
