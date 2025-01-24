@@ -14,6 +14,10 @@
     <script>
         //7.Modyfing HTML elements
         document.getElementById("first").innerHTML="JavaScript in Action!";
+        const theoldcontent=document.getElementById("dynamic-content");
+        const addedelement =document.createElement("p");
+        addedelement.textContent="This content was added dynamically using JavaScript.";
+        theoldcontent.appendChild(addedelement);
     </script>
     <script src="script.js"></script>
     <p id="p"></p>
