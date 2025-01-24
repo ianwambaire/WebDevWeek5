@@ -1,3 +1,4 @@
+//Part 1: JavaScript Basics
 //1Variables and datatypes
 //Declare variables of different types: string, number, boolean, array, and object.
 //Use console.log() to print their values and types in the browser console.
@@ -53,3 +54,9 @@ function performingcalculations(){
     //displays the result on the webpage
     document.getElementById("p").innerHTML=result;
 }
+//3.Functions:
+function greetUser(name) {
+    return `Hello, ${name}`;
+}
+
+
